@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E4C469821AD6F74D00D1AA73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C469811AD6F74D00D1AA73 /* main.m */; };
+		E4C4698B1AD6F87000D1AA73 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4698A1AD6F87000D1AA73 /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E4C4697E1AD6F74D00D1AA73 /* bitmaker-assignmentDay4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "bitmaker-assignmentDay4"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C469811AD6F74D00D1AA73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4C469891AD6F87000D1AA73 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		E4C4698A1AD6F87000D1AA73 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,7 @@
 		E4C469751AD6F74D00D1AA73 = {
 			isa = PBXGroup;
 			children = (
+				E4C469881AD6F7CA00D1AA73 /* Model */,
 				E4C469801AD6F74D00D1AA73 /* bitmaker-assignmentDay4 */,
 				E4C4697F1AD6F74D00D1AA73 /* Products */,
 			);
@@ -60,6 +64,15 @@
 				E4C469811AD6F74D00D1AA73 /* main.m */,
 			);
 			path = "bitmaker-assignmentDay4";
+			sourceTree = "<group>";
+		};
+		E4C469881AD6F7CA00D1AA73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4C469891AD6F87000D1AA73 /* Car.h */,
+				E4C4698A1AD6F87000D1AA73 /* Car.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4C4698B1AD6F87000D1AA73 /* Car.m in Sources */,
 				E4C469821AD6F74D00D1AA73 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
