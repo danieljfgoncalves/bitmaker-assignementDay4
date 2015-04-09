@@ -17,4 +17,6 @@
 
 -(void)drive;
 
++ (void)setDefaultModel:(NSString *)aModel;
+
 @end

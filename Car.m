@@ -8,6 +8,8 @@
 
 #import "Car.h"
 
+static NSString *_defaultModel;
+
 @implementation Car {
 
     // Private instance variables
@@ -20,6 +22,12 @@
 - (void)drive {
 
     NSLog(@"Driving a %@. Vroooooom!", self.model);
+    
+}
+
++ (void)setDefaultModel:(NSString *)aModel {
+
+    _defaultModel = [aModel copy];
     
 }
 
