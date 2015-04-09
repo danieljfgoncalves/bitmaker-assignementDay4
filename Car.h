@@ -19,4 +19,6 @@
 
 + (void)setDefaultModel:(NSString *)aModel;
 
+-(id)initWithModel:(NSString *)aModel;
+
 @end

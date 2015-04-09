@@ -9,9 +9,11 @@
 #import <Foundation/Foundation.h>
 #import "Car.h"
 
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
+        [Car setDefaultModel:@"Nissan Versa"];
         
         Car *toyota = [[Car alloc]init];
         
