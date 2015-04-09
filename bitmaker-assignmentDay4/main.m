@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Car.h"
+#import "iPhone.h"
 
 
 int main(int argc, const char * argv[]) {
@@ -63,6 +64,14 @@ int main(int argc, const char * argv[]) {
         if (NSClassFromString(@"Car") == [Car class]) {
             NSLog(@"I can convert between strings and classes!");
         }
+        
+        iPhone* phone = [[iPhone alloc]init];
+        [phone calling];
+        [phone texting];
+        [phone emailing];
+        [phone posting];
+        [phone browsing];
+        
         
     }
     return 0;
