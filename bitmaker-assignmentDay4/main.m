@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Car.h"
 #import "iPhone.h"
+#import "Vehicle.h"
 
 
 int main(int argc, const char * argv[]) {
@@ -71,6 +72,14 @@ int main(int argc, const char * argv[]) {
         [phone emailing];
         [phone posting];
         [phone browsing];
+        
+        Vehicle *myVehicle = [[Vehicle alloc]init];
+        [myVehicle prep];
+        [myVehicle getGas];
+        [myVehicle service];
+        
+        // Do you see any advantages of being able to apply an action to an object that could be from one of several classes?
+        // Yes. You could write only once the methods, and call them on each of the classes (car, boat & motorcycle.)
         
         
     }
