@@ -10,6 +10,7 @@
 #import "Car.h"
 #import "iPhone.h"
 #import "Vehicle.h"
+#import "XYPoint.h"
 
 
 int main(int argc, const char * argv[]) {
@@ -79,8 +80,12 @@ int main(int argc, const char * argv[]) {
         [myVehicle service];
         
         // Do you see any advantages of being able to apply an action to an object that could be from one of several classes?
-        // Yes. You could write only once the methods, and call them on each of the classes (car, boat & motorcycle.)
+        /* Yes. You could write only once the methods, and call them on each of the classes (car, boat & motorcycle.) */
         
+        // Ch.06 Define a class called XYPoint that will hold a Cartesian coordinate (x, y), where x and y are integers. Define methods to individually set the x and y coordinates of a point and retrieve their values. Write an Objective-C program to implement your new class and test it.
+        
+        XYPoint *xypoint = [[XYPoint alloc]init];
+        [xypoint coordinates:@4 :@4];
         
     }
     return 0;

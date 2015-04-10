@@ -10,6 +10,7 @@
 		E49B868B1AD71D46000A0687 /* Motorcycle.m in Sources */ = {isa = PBXBuildFile; fileRef = E49B868A1AD71D46000A0687 /* Motorcycle.m */; };
 		E49B868E1AD71D56000A0687 /* Boat.m in Sources */ = {isa = PBXBuildFile; fileRef = E49B868D1AD71D56000A0687 /* Boat.m */; };
 		E49B86911AD71E07000A0687 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = E49B86901AD71E07000A0687 /* Vehicle.m */; };
+		E49B86941AD720C0000A0687 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = E49B86931AD720C0000A0687 /* XYPoint.m */; };
 		E4C469821AD6F74D00D1AA73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C469811AD6F74D00D1AA73 /* main.m */; };
 		E4C4698B1AD6F87000D1AA73 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4698A1AD6F87000D1AA73 /* Car.m */; };
 		E4C469911AD710BB00D1AA73 /* iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C469901AD710BB00D1AA73 /* iPhone.m */; };
@@ -34,6 +35,8 @@
 		E49B868D1AD71D56000A0687 /* Boat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boat.m; sourceTree = "<group>"; };
 		E49B868F1AD71E07000A0687 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
 		E49B86901AD71E07000A0687 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		E49B86921AD720C0000A0687 /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
+		E49B86931AD720C0000A0687 /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
 		E4C4697E1AD6F74D00D1AA73 /* bitmaker-assignmentDay4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "bitmaker-assignmentDay4"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C469811AD6F74D00D1AA73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4C469891AD6F87000D1AA73 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
@@ -91,6 +94,8 @@
 				E49B868D1AD71D56000A0687 /* Boat.m */,
 				E49B868F1AD71E07000A0687 /* Vehicle.h */,
 				E49B86901AD71E07000A0687 /* Vehicle.m */,
+				E49B86921AD720C0000A0687 /* XYPoint.h */,
+				E49B86931AD720C0000A0687 /* XYPoint.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				E49B868E1AD71D56000A0687 /* Boat.m in Sources */,
 				E49B868B1AD71D46000A0687 /* Motorcycle.m in Sources */,
 				E49B86911AD71E07000A0687 /* Vehicle.m in Sources */,
+				E49B86941AD720C0000A0687 /* XYPoint.m in Sources */,
 				E4C4698B1AD6F87000D1AA73 /* Car.m in Sources */,
 				E4C469911AD710BB00D1AA73 /* iPhone.m in Sources */,
 				E4C469821AD6F74D00D1AA73 /* main.m in Sources */,
